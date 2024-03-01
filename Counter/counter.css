@@ -1,0 +1,32 @@
+#countLabel {
+    display: block;                 /*extend as far horizontally as it can*/
+    text-align: center;
+    font-size: 15em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    color: green;
+}
+
+#button-container {
+   text-align: center; 
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 20px;
+}
+
+button {
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    font-size: 30px;
+    border-radius: 20px; 
+    cursor: pointer; 
+    transition: background-color 0.2s;      /* transition from one background color to another will take a quarter of a second.*/
+}
+
+button:hover {
+    background-color: rgb(255, 0, 179);
+}
