@@ -39,7 +39,9 @@ This code is a text-based adventure game implemented using JS and HTML elements.
 4. **EVENT-HANDLERS**: Function that runs when certain event occurs -
    * 'onclick' event handlers for 'button1', 'button2' and 'button3' elements trigger different actions in the game based on what the player selects.
 
-**OTEHR JAVASCRIPT CONCEPTS THAT CONTRIBUTE TO THE FUNCTIONALITY OF THE CODE ARE SUMMARIZED IN THE TABLE BELOW**
+**OTEHR JAVASCRIPT CONCEPTS THAT CONTRIBUTE TO THE FUNCTIONALITY OF THE CODE ARE SUMMARIZED IN THE TABLE BELOW** 
+
+
 ![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/e9100966-1d69-48be-863a-c60c717d8fc6)
 ![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/3328c41e-4e88-4d63-9173-f2474cbbc11d)
 ![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/f32fca4d-8306-4062-8535-1ff7818c5c79)
