@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adults who register early</title>
+</head>
+<body>
+
+    <p>Please see console to see what's happened in the background</p>
+
+    <script>
+        let raceNumber = Math.floor(Math.random() * 1000);
+
+        const registeredEarly = true;
+
+        const runnerAge = 30 ;
+
+        //control flow statement - check for adult + register early
+        if (runnerAge > 18 && registeredEarly) {
+        raceNumber += 1000;
+        } else if (runnerAge > 18 && !registeredEarly) {
+        raceNumber -= 1000;
+        } 
+
+        //control flow statement - check for early adult + race time 
+        if (runnerAge > 18 && registeredEarly) {
+        console.log(`Your race will start at 9:30am and your number is ${raceNumber}`);
+        } else if (runnerAge > 18 && !registeredEarly) {
+        console.log(`Your race will start at 11:00am and your number is ${raceNumber}`);
+        } else if (runnerAge < 18) {
+        console.log('Your race will start at 12:30pm');
+        } else if (runnerAge === 18) {
+        console.log('Please go to registration desk');
+        }
+    </script>
+</body>
+</html>
