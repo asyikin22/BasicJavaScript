@@ -47,10 +47,8 @@ This code is a text-based adventure game implemented using JS and HTML elements.
 ![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/f32fca4d-8306-4062-8535-1ff7818c5c79)
 
 
-# RIDICULOUSLY SIMPLE COUNTER
+# SIMPLE COUNTER
 So these codes basically show you how everytime you press the increase button it will add 1 to counter, when you press decrease button, it will take away one from the counter. And of course when you press reset button the coutner will return to 0
-
-I will show you how to do this in less than 15 minutes. Could be less but becuase I am a newbie, it takes slightly longer lol. 
 
 **HTML**
 1. Create one div with ID=ccountLabel. set the text to 0(zero)
@@ -83,6 +81,29 @@ I will show you how to do this in less than 15 minutes. Could be less but becuas
 7. We need to create a control flow that takes in the randomNumber we made in step 5, and then assigns eightBall to a reply that a Magic Eight Ball would return. Think about utilizing if/else or switch statements. Here are 8 Magic Eight Ball phrases that we’d like to save to the variable eightBall:
 8. Write a console.log() to print the Magic Eight Ball’s answer, the value of the eightBall variable
 9. Run your program a few times to see random results appear in the console!
+
+# Race Day
+
+**OBJECTIVE:** 
+* Write a program that will register runners for the race and give them instructions on race day.
+* Runners are assigned a race number and start time based on their age and registration.
+
+![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/e4d38f3f-c637-4f71-8e40-729b889b7761)
+
+**STEP-BY-STEP**:
+1. Race numbers are assigned randomly.
+2. Create a variable that indicates whether a runner registered early or not.
+3. Create a variable for the runner’s age and set it equal to a number.
+4. Create a control flow statement that checks whether the runner is an adult AND registered early. Add 1000 to their raceNumber if this is true.
+5. Create a separate control flow statement below the first (starting with if again). This statement will check age and registration time to determine race time.
+6. For runners over 18 who registered early, log a statement to the console telling them that they will race at 9:30 am. Include their raceNumber.
+7. “Late adults run at 11:00 am” - Since we already checked for early adults we can write a statement like this: else if runner is over 18 AND did not register early they will race at 11:00am
+8. Write the corresponding else if statement.
+9. Within that, log a string to the console telling them that they will race at 11:00 am. Include their raceNumber.
+10. “Youth registrants run at 12:30 pm (regardless of registration)” - For people who are under 18, log a statement to the console telling them that they will race at 12:30 pm. Include their raceNumber.
+11. Enter different combinations of values for the two variables you created and run your code several times. Verify that the correct statements are printing to the consol
+12. Don’t forget about runners exactly 18 years old! Add an else statement that logs a statement to the console telling the runner to see the registration desk.
+    
 
 
 
