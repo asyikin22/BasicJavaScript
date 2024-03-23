@@ -47,30 +47,6 @@ This code is a text-based adventure game implemented using JS and HTML elements.
 ![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/f32fca4d-8306-4062-8535-1ff7818c5c79)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # RIDICULOUSLY SIMPLE COUNTER
 So these codes basically show you how everytime you press the increase button it will add 1 to counter, when you press decrease button, it will take away one from the counter. And of course when you press reset button the coutner will return to 0
 
@@ -92,3 +68,23 @@ I will show you how to do this in less than 15 minutes. Could be less but becuas
 2. Also, we gonna grab the countLabel element too beacuase we want the number to be displayed accordingly when user presses increase, decrease or reset.
 3. Set the number to 0
 4. Create 3 incredibly easy functions for decrease, reset and button.
+
+# Magic Eight Ball 
+
+**OBJECTIVE:** input a question, then the program will output a random fortune. <br>
+
+**STEP-BY-STEP**:
+1. In the first line of the program, define a variable called userName that is set to an empty string. If the user wants, they can enter their name in between the quotation marks.
+2. Below this variable, create a ternary expression that decides what to do if the user enters a name or not. If the user enters a name — like 'Jane' — use string interpolation to log Hello, Jane! to the console. Otherwise, simply log Hello!.
+3. Create a variable named userQuestion. The value of the variable should be a string that is the question the user wants to ask the Magic Eight Ball.
+4. Write a console.log() for the userQuestion, stating what was asked. You can include the user’s name in the console.log() statement, if you wish!\
+5. We need to generate a random number between 0 and 7. Create another variable, and name it randomNumber. Set it equal to this expression, which uses two methods (Math.floor() and Math.random()) from the Math library.
+6. Create one more variable named eightBall, and set it equal to an empty string. We will save a value to this variable in the next steps, depending on the value of randomNumber.
+7. We need to create a control flow that takes in the randomNumber we made in step 5, and then assigns eightBall to a reply that a Magic Eight Ball would return. Think about utilizing if/else or switch statements. Here are 8 Magic Eight Ball phrases that we’d like to save to the variable eightBall:
+8. Write a console.log() to print the Magic Eight Ball’s answer, the value of the eightBall variable
+9. Run your program a few times to see random results appear in the console!
+
+
+
+
+
