@@ -3,6 +3,7 @@
 
 **LEXICAL STRUCTURE**
 * It refers to the rules governing how characters and symbols are combined to form valid tokens
+  
 ![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/1b207d23-790b-4bf9-8ebc-a5c7f6931ded)
 
 **DATA TYPES**
@@ -62,32 +63,48 @@
 * They don’t have their own 'this' context.
 * They have no argument object.
 
+![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/cab57095-ba50-4dc2-a1e3-6638ab3d53f1)
 
+**'This' OPERATOR**:
+* It refers to the context in which a function is executed.
+* It's used in object methods
+* It is crucial for working with object-oriented programming in JS.
+* 'this' is always a reference to an object.
 
+**SCOPES**:
+* Scopes define where variables and functions are accessible within your code
 
+![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/5c855067-86a7-44d8-b812-2cb5af5fbca7)
 
+**ARRAYS**:
+* A data structure that allows you to store multiple values in a single variable
+* Core characteristics:
+   1. They are resizable and can contain a mix of different data types
+   2. They are zero-indexed (accessed using numerical index, starting from 0)
+   3. Various built-in methods and properties to manipulate data
+   4. Iteration: loops ('for' loop) and methods (forEach(), map(), and filter())
+   5. Determine its size using length property
+   6. They are mutable - we can change the value of element
 
+**TEMPLATE LITERALS**:
+* Literals delimited with backtick characters
+* It's commonly used for string interpolation
+  1. It refers to the process of embedding variables or expression within a string literal.
+  2. Template literals provides a convenient syntax using ${}
+	
+* Note that it's different from String concatenation (join multiple strings to form a single string)
 
+# LOOPS
+* Loops offer a quick and easy way to do something repeatedly
+* There are many kind of loops but they are essentially doing the same thing ---> repeat an action some number of times.
+* Statements for loops:
+  1. For
+  2. Do...while
+  3. While
+  4. For...in
+  5. For...of
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  ![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/dfe9eedd-577c-4db2-b547-d973454a0d06)
 
 
 
