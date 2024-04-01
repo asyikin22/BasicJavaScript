@@ -1,3 +1,96 @@
+
+# BASIC CONCEPT IN JAVASCRIPT
+
+**LEXICAL STRUCTURE**
+* It refers to the rules governing how characters and symbols are combined to form valid tokens
+![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/1b207d23-790b-4bf9-8ebc-a5c7f6931ded)
+
+**DATA TYPES**
+
+* SOURCE: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_overview
+  
+![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/19f7d244-a0de-4d34-8ef5-ff25d3394e56)
+
+![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/219452f7-8cf1-4eee-aedc-3eb7a4508681)
+
+![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/4635cfef-5f1f-4bd5-8c4e-ed07b18a9f5c)
+
+**VARIABLES**
+* SOURCE: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables#what_is_a_variable
+* A container for a value
+* Variables are not values themselves! They're like cardboard boxes that you can store things in
+
+![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/2cb1e9ce-2534-43e6-a4bf-575515a660b8)
+
+![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/1c272ac7-0566-4b4e-80ac-e3a81419880e)
+
+![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/31883f25-fe08-439c-ab94-b0b65079f411)
+
+![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/7873709f-3221-4c1b-b398-4beebccb5586)
+
+**FUNCTIONS**:
+
+**Definition**:
+* Function is a block of reusable code that performs a specific tasks OR calculates a value
+* It should take some input and return an output
+* You must define it somewhere in the scope from which you wish to call it.
+<br>
+
+**First Class Objects**:
+* Can be passed to other functions
+* Returned from functions
+* Assigned to variable and properties
+
+![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/b094f2a7-1236-48fc-9386-16c7b4f47cd4)
+
+![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/16c9a3f8-662f-48dc-af2d-d0dda5ae46ae)
+
+![image](https://github.com/asyikin22/BasicJavaScript/assets/148519441/fee6c9b1-f538-4832-9021-590e928d1091)
+
+**Calling a Function**:
+* Defining a function DOES NOT execute it
+* Defining it names the function & it specifies what to do when the function is called
+* Calling a function actually performs the specified actions with the indicated parameters
+
+**Function Scope**:
+* It refers to visibility and accessibility of variables defined within a function
+* Variables declared inside a function are scoped to that function - they're ONLY accessible within the function body
+
+**Arrow Functions**:
+* Arrow function expression has shorter syntax and more concise.
+* It's always anonymous
+* They don’t have their own 'this' context.
+* They have no argument object.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Role-Playing Game
 **SUMMARY**: 
 
